@@ -10,7 +10,7 @@ The CSS Grid layout for all modern browsers:
 --------------------------------------------------------------*/
 /*
 NOTE
-The reason why I use (grid-area: auto) instead, is that some older browsers actually have 'legacy support' for an older spec for CSS Grid. So they will say yes to the question: "do you support display grid ? ". The problem is, you don't know if that means they actually support the current spec or the older spec. But, (grid-area: ) is from the NEW current spec so if we test for (grid-area: ) instead we will get a true answer.
+The reason why I use (grid-area: auto) instead of (display: grid), is that some older browsers actually have 'legacy support' for an older spec for CSS Grid. So they will say yes to the question: "do you support display grid ? ". The problem is, you don't know if that means they actually support the current spec or the older spec. But, (grid-area: ) is from the NEW current spec so if we test for (grid-area: ) instead we will get a true answer.
 */
 /*--------------------------------------------------------------
 Grid support and Grid styling.
